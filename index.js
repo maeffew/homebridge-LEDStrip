@@ -1,10 +1,10 @@
 var Service, Characteristic;
 var Gpio = require('pigpio').Gpio,
-  	redLED = new Gpio(17, {mode: Gpio.OUTPUT}),
+  	redLED = new Gpio(21, {mode: Gpio.OUTPUT}),
   	dutyCycle = 0,
   	greenLED = new Gpio(22, {mode: Gpio.OUTPUT}),
   	dutyCycle = 0,
-  	blueLED = new Gpio(21, {mode: Gpio.OUTPUT}),
+  	blueLED = new Gpio(23, {mode: Gpio.OUTPUT}),
   	dutyCycle = 0;
   var h = 0;
   var s = 0;
